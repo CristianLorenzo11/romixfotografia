@@ -26,8 +26,9 @@ body {
 }
 
 .logoromi {
-    max-width: 300px; /* Ajusta el tamaño del logo según prefieras */
+    max-width: 400px; /* Ajusta el tamaño del logo según prefieras */
     height: auto;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.993));
 }
 
   
@@ -67,9 +68,7 @@ filter: drop-shadow(0 0 15px rgba(7, 8, 8, 0.993));
 
 }
 
-.logoromi{
-    filter: drop-shadow(0 0 15px rgba(253, 253, 253, 0.993));
-}
+
 section {
     max-width: 800px;
     margin: 3px auto;
