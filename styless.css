@@ -17,6 +17,19 @@ body {
     background-repeat: no-repeat;
     animation: brillo 3s infinite ease-in-out; /* El brillo pulsa de manera continua */
   }
+  .banner {
+    width: 100%;
+    background-color: #f5f5f5; /* Fondo claro, puedes cambiar el color */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Efecto de sombra */
+}
+
+.logoromi {
+    max-width: 300px; /* Ajusta el tamaño del logo según prefieras */
+    height: auto;
+}
+
   
 
 .encargar {
@@ -54,7 +67,9 @@ filter: drop-shadow(0 0 15px rgba(7, 8, 8, 0.993));
 
 }
 
-
+.logoromi{
+    filter: drop-shadow(0 0 15px rgba(253, 253, 253, 0.993));
+}
 section {
     max-width: 800px;
     margin: 3px auto;
